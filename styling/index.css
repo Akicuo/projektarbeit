@@ -73,7 +73,9 @@ container {
   background-color: #5DADE2; 
   padding: 10px;
   justify-content: space-around; /* Distribute the header elements horizontally */
-    align-items: center;
+  align-items: center;
+  
+
 
 }
 
@@ -91,11 +93,12 @@ container {
   margin-right: 20px;
   justify-content: space-around; /* Distribute the header elements horizontally */
     align-items: center;
+    padding-left: 30px;
 }
 
 .navigation a {
   text-decoration: none;
-  color: #333;
+  color: #ffffff;
 }
 
 /* Make the navigation menu responsive */
@@ -149,7 +152,6 @@ container {
   background-color: #444;
 }
 
-/* Footer Styles */
 
 .footer {
   background-color: #04719c;
