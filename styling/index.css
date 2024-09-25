@@ -27,6 +27,7 @@ container {
   }
 
 .image-gallery {
+  grid: images;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -49,7 +50,7 @@ container {
 
 @keyframes scaleUp {
   0% {
-    transform: scale(0);
+    transform: scale(0.5);
   }
   100% {
     transform: scale(1);
@@ -74,6 +75,9 @@ container {
   margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 12px;
+  align-self: center;
+  text-align: center;
+  width: 20%;
 
   
 }

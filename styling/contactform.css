@@ -30,7 +30,7 @@
     margin: 30px;
     margin-right: 40px;
     padding-bottom: 00px;
-    background-color: hsl(0, 31%, 73%);
+    background-color: hsl(0, 0%, 19%);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -64,6 +64,9 @@
 }
 
 .submit-button {
+    margin: 7px;
+    width: 20%;
+    align-self: center;
     padding: 10px 15px;
     background-color: #007BFF;
     color: #fff;
