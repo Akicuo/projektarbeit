@@ -1,1 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.titeldiv {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    height: 300vh;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}

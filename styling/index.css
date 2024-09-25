@@ -1,1 +1,55 @@
-
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* 20px gap between upper and lower row */
+    width: 640px; /* Fixed width for the container */
+    overflow: hidden; /* Ensure images don't overflow */
+  }
+  
+  .track {
+    display: flex;
+    gap: 20px; /* 20px gap between images */
+    position: relative;
+  }
+  
+  .track.upper {
+    animation: moveLeft 15s linear infinite;
+  }
+  
+  .track.lower {
+    animation: moveRight 15s linear infinite;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+  }
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
