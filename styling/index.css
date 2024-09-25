@@ -18,8 +18,8 @@ container {
   grid-template-areas:
   "title title title"
   "nav nav nav"
-  "image image image"
-  "image image image"
+  "images images images"
+  "images images images"
   "catalogbutton catalogbutton catalogbutton"
   "footer footer footer";
   }
@@ -102,7 +102,7 @@ container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-area: image;
+  grid-area: images;
 }
 
 .image-box {
@@ -125,12 +125,16 @@ container {
 /* Catalog Button Styles */
 
 .catalog-button {
+  grid-area: catalogbutton;
+  justify-content: center;
   background-color: #333;
   color: #fff;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
+
+  
 }
 
 .catalog-button:hover {
