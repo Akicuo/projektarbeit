@@ -1,1 +1,69 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zyra Clothing Shop</title>
+    <link rel="stylesheet" href="styling/contactform.css">
+    <link rel="stylesheet" href="styling/main.css">
+</head>
+<body>
+    <div class="container">
+    <header class="header">
+        <div class="header-container">
+            <h1 class="title">Zyra</h1>
+            <button class="menu-button">
+                ☰
+            </button>
+            <div class="hidden-menu">
+                <h1 class="menu-title">Zyra</h1>
+            </div>
+        </div>
+    </header>
+    
+
+    <nav class="navigation">
+        <ul>
+            <li><a  href="/index.html">Home</a></li>
+            <li><a  href="/catalog.html">Catalog</a></li>
+            <li><a  href="#">About us</a></li>
+            <li><a href="/contactform.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="formular">
+        <form class="form-container">
+            <div class="form-group">
+                <label for="first-name">Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Geben Sie Ihren Namen ein" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Nachname:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Geben Sie Ihren Nachnamen ein" required>
+            </div>
+            <div class="form-group">
+                <label for="title">Titel:</label>
+                <input type="text" id="title" name="title" placeholder="Titel eingeben" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Text:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Schreiben Sie hier Ihren Text..." required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Absenden</button>
+        </form>
+    </div>
+    
+
+    
+    
+
+    <button class="catalog-button">View entire catalog</button>
+
+    <footer class="footer">
+        <p>Official 2024 Zyra. All Rights Reserved. | <a href="#">Contact us</a> | <a href="#">Catalog & Cart</a> | <a href="#">about us</a></p>
+    </footer>
+    <script src="scripts/index.js"></script>
+</div>
+</body>
+</html>

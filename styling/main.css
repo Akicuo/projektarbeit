@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
 .header {
   background-color: #5DADE2;
   color: #fff;
   padding: 1em;
   text-align: center;
+  
 }
 
 .header-container {
@@ -46,17 +53,33 @@
 }
 
 .menu-button.activated {
-  animation: moveAndRotate 1s forwards;
+  animation: moveAndRotate 0.25s forwards;
+}
+
+@keyframes popout {
+  0% { transform: translateX(0); display: none;}
+  20% { display: block;}
+  100% { transform: translateX(20);}
 }
 
 
 .hidden-menu {
-  display: none; 
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -200px; 
+  width: 250px;
+  height: 100vh;
+  background-color: #5DADE2;
+  padding: 20px;
+  transition: right 0.5s ease; 
 }
 
 .hidden-menu.show {
-  display: block; 
+  display: block;
+  right: 50px; /
 }
+
 
 
 
@@ -110,6 +133,7 @@
   padding: 1em;
   text-align: center;
   clear: both;
+  margin-top: 40px;
 }
 
 .footer p {
