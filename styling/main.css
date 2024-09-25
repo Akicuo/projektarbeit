@@ -50,6 +50,14 @@
 }
 
 
+.hidden-menu {
+  display: none; 
+}
+
+.hidden-menu.show {
+  display: block; 
+}
+
 
 
 
@@ -58,7 +66,7 @@
   grid-area: nav;
   background-color: #5DADE2; 
   padding: 10px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   
 
@@ -71,7 +79,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 

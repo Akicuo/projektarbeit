@@ -1,5 +1,7 @@
-const button = document.querySelector('.menu-button'); // Corrected class selector
+const button = document.querySelector('.menu-button'); 
+const hidden_menu = document.querySelector(".hidden-menu")
 
 button.addEventListener('click', () => {
-  button.classList.toggle('activated'); 
+  button.classList.toggle('activated');
+  hidden_menu.classList.toggle('show') 
 });
