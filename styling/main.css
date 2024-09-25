@@ -14,8 +14,11 @@
 
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
 }
+
 
 .title {
   font-size: 34px;
@@ -36,50 +39,60 @@
 }
 
 .menu-button {
-  grid-area: title;
-  background-color: #5DADE2;
+  background-color: #4f8ab1;
   color: #fff;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 15px 30px; 
+  font-size: 20px;
   cursor: pointer;
-  float: right;
-  margin-left: 10px;
-  width: 20px;
-  padding-right: 30px;
-  position: relative;
   transition: transform 0.5s;
-  backface-visibility: hidden;
+  z-index: 10; 
+  margin-left: 100px;
 }
 
 .menu-button.activated {
-  animation: moveAndRotate 0.25s forwards;
+  animation: moveAndRotate 0.45s forwards;
 }
 
 @keyframes popout {
-  0% { transform: translateX(0); display: none;}
-  20% { display: block;}
-  100% { transform: translateX(20);}
+  0% { transform: translateX(0);}
+  100% { transform: translateX(-220);}
 }
 
 
 .hidden-menu {
-  display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: -200px; 
+  right: -225px; 
   width: 250px;
   height: 100vh;
-  background-color: #5DADE2;
+  background-color: #64a1c7;
   padding: 20px;
-  transition: right 0.5s ease; 
+  transition: right 0.5s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hidden-menu.show {
-  display: block;
-  right: 50px; /
+  right: 0;
+  width: 25vw; 
+}
+.menu-title {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+.hidden-menu .emojis {
+  font-size: 24px;
+  margin-top: 20px;
+}
 
 
 
