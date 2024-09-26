@@ -16,8 +16,7 @@
   container {
     display: grid;
     grid-template-areas:
-    "title title title"
-    "nav nav nav"
+    "title nav nav"
     "contact contact contact"
     "catalogbutton catalogbutton catalogbutton"
     "footer footer footer";
@@ -80,3 +79,8 @@
 .submit-button:hover {
     background-color: #0056b3;
 }
+
+.title {
+    align-self: self-start;
+}
+
