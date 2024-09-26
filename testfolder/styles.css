@@ -1,0 +1,37 @@
+.about-us-container {
+    display: grid;
+    grid-template-areas:
+    "image1 text"
+    "image2 image2"
+    "image3 text";
+    grid-gap: 10px;
+  }
+  
+  .image-box {
+    width: 40%;
+    margin: 10px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  .image-box.top-left {
+    grid-area: image1;
+  }
+  
+  .image-box.middle-right {
+    grid-area: image2;
+    justify-self: end;
+  }
+  
+  .image-box.bottom-left {
+    grid-area: image3;
+  }
+  
+  .text-box {
+    grid-area: text;
+    padding: 20px;
+  }
+  
+  .text-box h2 {
+    margin-top: 0;
+  }

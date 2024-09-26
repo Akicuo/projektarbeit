@@ -13,7 +13,7 @@
   
   
   
-  .container {
+  container {
     display: grid;
     grid-template-areas:
     "title title title"
