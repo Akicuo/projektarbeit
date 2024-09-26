@@ -88,17 +88,21 @@
 .flex-group {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .flex-group .form-group {
     flex: 1;
     margin: 10px;
+    
+}
+.form-group {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .radio-group {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: -5px;
 }
 
 .radio-group label {
@@ -108,4 +112,19 @@
 .product-type {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.form-group select {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.form-group select:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
