@@ -13,7 +13,7 @@
   
   
   
-  .container {
+  container {
     display: grid;
     grid-template-areas:
     "title nav nav"
@@ -83,4 +83,3 @@
 .title {
     align-self: self-start;
 }
-
