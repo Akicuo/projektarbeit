@@ -8,13 +8,16 @@
 
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #2C3E50;
 }
 
 /* Header */
 
 header {
     background-color: #04719c;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -45,7 +48,7 @@ nav {
 }
 
 .nav-links a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
     font-weight: bold;
     text-decoration: none;
@@ -60,8 +63,6 @@ nav {
 /* About Section */
 
 .about {
-    background: rgb(224, 251, 222);
-    background: linear-gradient(360deg, rgb(245, 255, 245) 0%, rgb(173, 252, 163) 100%);
     padding: 100px 0 20px 0;
     text-align: center;
 }
@@ -73,7 +74,7 @@ nav {
 
 .about p {
     font-size: 1rem;
-    color: #323030;
+    color: #ffffff;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -112,16 +113,13 @@ button {
     margin: 2rem;
     font-size: 1rem;
     color: white;
-    background-color: #40b736;
+    background-color: #5DADE2;
     text-align: center;
     cursor: pointer;
     width: 15rem;
     border-radius: 4px;
 }
 
-button:hover {
-    background-color: #1f9405;
-}
 
 /* Team Section */
 
@@ -145,6 +143,7 @@ button:hover {
 
 .card {
     background-color: white;
+    color: black;
     border-radius: 6px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     overflow: hidden;
