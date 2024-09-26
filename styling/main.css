@@ -22,7 +22,7 @@
 
 .title {
   font-size: 34px;
-  margin-left: 0%;
+  margin-left: -25%;
   margin-bottom: 10px;
   grid-area: title;
   flex: 1;
@@ -80,6 +80,9 @@
   .navigation li {
     flex-basis: calc(33.33% - 20px);
     margin-right: 10px;
+  }
+  .title {
+    margin-left: 0%;
   }
 }
 
