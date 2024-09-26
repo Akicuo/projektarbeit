@@ -86,3 +86,11 @@ body {
 .catalog-button:hover {
   background-color: #2fa4af;
 }
+
+.title {
+  
+  padding: 0px;
+  margin: 0px;
+  align-self: center;
+
+}
