@@ -31,13 +31,15 @@
 
     <div class="formular">
         <form class="form-container">
-            <div class="form-group">
-                <label for="first-name">Name:</label>
-                <input type="text" id="first-name" name="first-name" placeholder="Geben Sie Ihren Namen ein" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="text" id="last-name" name="email" placeholder="Geben Sie Ihren Email ein" required>
+            <div class="flex-group">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Geben Sie Ihren Namen ein" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Geben Sie Ihren Email ein" required>
+                </div>
             </div>
             <div class="form-group">
                 <label for="title">Titel:</label>
@@ -47,15 +49,17 @@
                 <label for="message">Text:</label>
                 <textarea id="message" name="message" rows="4" placeholder="Schreiben Sie hier Ihren Text..." required></textarea>
             </div>
-            <button type="submit" class="submit-button" method="post" action="https://formlog.offline.ch/log", >Absenden</button>
+            <div class="radio-group">
+                <label>Request type:</label>
+                <input type="radio" id="design" name="request-type" value="design">
+                <label for="design">Design request</label>
+                <input type="radio" id="question" name="request-type" value="question">
+                <label for="question">Question</label>
+            </div>
+            <button type="submit" class="submit-button">Absenden</button>
         </form>
     </div>
     
-
-    
-    
-
-    <button class="catalog-button">View entire catalog</button>
 
     <footer class="footer">
         <p>Official 2024 Zyra. All Rights Reserved. | <a href="#">Contact us</a> | <a href="#">Catalog & Cart</a> | <a href="#">about us</a></p>
