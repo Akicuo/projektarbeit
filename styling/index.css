@@ -15,23 +15,23 @@ body {
 
 
 
-container {
+.container {
   display: grid;
+
   grid-template-areas:
   "title title title"
   "nav nav nav"
-  "images images images"
-  "images images images"
+  "content content content"
   "catalogbutton catalogbutton catalogbutton"
   "footer footer footer";
   }
 
 .image-gallery {
-  grid: images;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  grid-area: images;
+  grid-area: content;
 }
 
 .image-box {
@@ -85,3 +85,4 @@ container {
 .catalog-button:hover {
   background-color: #2fa4af;
 }
+

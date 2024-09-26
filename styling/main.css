@@ -132,12 +132,7 @@
 }
 
 
-@media (max-width: 768px) {
-  .navigation li {
-    flex-basis: calc(33.33% - 20px);
-    margin-right: 10px;
-  }
-}
+
 
 .footer {
   grid-area: footer;
@@ -160,4 +155,19 @@
 
 .footer a:hover {
   color: #ccc;
+}
+@media screen and (max-width: 768px) {
+
+  .content{
+    display: grid;
+    grid-template-areas: 
+    "title title"
+    "nav nav"
+    "content content"
+    "catologbutton catalogbutton"
+    "footer footer";
+  }
+  .image-gallery {
+    grid-area: content ;
+  }
 }
