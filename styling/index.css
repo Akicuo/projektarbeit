@@ -48,6 +48,7 @@ body {
     animation: scaleUp 0.2s ease-in-out;
   }
 
+ 
 
 @keyframes scaleUp {
   0% {

@@ -9,7 +9,8 @@
   color: #fff;
   padding: 1em;
   text-align: center;
-  
+  position: sticky;
+  top: ;
 }
 
 .header-container {

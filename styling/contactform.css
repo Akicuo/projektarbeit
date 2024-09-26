@@ -12,15 +12,7 @@
   }
   
   
-  
-  container {
-    display: grid;
-    grid-template-areas:
-    "title nav nav"
-    "contact contact contact"
-    "catalogbutton catalogbutton catalogbutton"
-    "footer footer footer";
-    }
+
 
 .form-container {
     display: flex;
