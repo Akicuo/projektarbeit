@@ -109,9 +109,19 @@
 
 }
 
+.navlink {
+  padding: 5px;
+}
+
+.navlink:hover {
+  width: 110%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
 .navigation ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   list-style: none;
   margin: 0;
   padding: 0;
