@@ -34,13 +34,62 @@
 
 .navigation {
   grid-area: nav;
-  background-color: #5DADE2; 
-  padding: 10px;
+  background-color: #5DADE2;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  position: relative;
+  align-self: center;
+  max-width: 800px; /* added */
+  padding-bottom: 10px;
+}
+
+.navigation ul {
+
+  display: flex;
+  flex-wrap: wrap; /* added */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation li {
+  margin-right: 10px; /* reduced from 20px */
   
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30px;
+}
 
 
+@media (max-width: 1300px) {
+  .navigation ul {
+    flex-direction: column; /* stack navigation items vertically */
+  }
+  .navigation li {
+    margin-right: 0; /* remove margin on smaller screens */
+    padding-left: 15px; /* reduce padding on smaller screens */
+  }
+  .navlink {
+    padding: 10px;
+    ; /* reduce padding on smaller screens */
+  }
+}
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 450px) {
+  
+  .navigation ul {
+    flex-direction: column; /* stack navigation items vertically */
+  }
+  .navigation li {
+    margin-right: 0; /* remove margin on smaller screens */
+    padding-left: 15px; /* reduce padding on smaller screens */
+  }
+  .navlink {
+    padding: 10px; /* reduce padding on smaller screens */
+  }
 }
 
 .navlink {

@@ -82,6 +82,12 @@
     justify-content: space-between;
 }
 
+@media (max-width: 450px) {
+    .flex-group {
+      flex-direction: column; /* stack navigation items vertically */
+    }
+  }
+
 .flex-group .form-group {
     flex: 1;
     margin: 10px;
