@@ -52,22 +52,24 @@
                     <label for="question">Question</label>
                 </div>
                 <div class="form-group">
-                    <label for="product-type">Product Type:</label>
-                    <select id="product-type" name="product-type" required>
-                        <option value="" disabled selected>Choose a product type</option>
-                        <option value="tshirt">T-Shirt</option>
-                        <option value="hoodie">Hoodie</option>
-                        <option value="sweatshirt">Sweatshirt</option>
-                        <option value="hat">Hat</option>
-                        <option value="accessory">Accessory</option>
-                        <option value="other">Other</option>
-                    </select>
+                    <div class="product-type" style="display: none;"> <!-- Start with hidden -->
+                        <label for="product-type">Product Type:</label>
+                        <select id="product-type" name="product-type">
+                            <option value="" disabled selected>Choose a product type</option>
+                            <option value="tshirt">T-Shirt</option>
+                            <option value="hoodie">Hoodie</option>
+                            <option value="sweatshirt">Sweatshirt</option>
+                            <option value="hat">Hat</option>
+                            <option value="accessory">Accessory</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
                 </div>
                 
                 <button type="submit" class="submit-button">Absenden</button>
             </form>
     </main>
-    <script scr="scripts/contactform.js"></script>
+    <script src="scriptsv2/cf.js"></script>
     <footer class="footer">
         <p>Official 2024 Zyra. All Rights Reserved. | 
             <a href="contactform.html">Contact us</a> | 
