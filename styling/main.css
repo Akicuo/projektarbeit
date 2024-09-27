@@ -84,7 +84,7 @@
 /* Media query for smaller screens (e.g., mobile devices) */
 @media (max-width: 450px) {
   .navigation, .header-container, header{
-    width: 100vh;
+    width: auto;
   }
   .navigation ul {
     flex-direction: column; /* stack navigation items vertically */
