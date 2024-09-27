@@ -67,7 +67,7 @@
 
 @media (max-width: 1300px) {
   .navigation, .header-container, .header, .footer, .navlink{
-    max-width: 100vh;
+    width: auto;
   }
   .navigation ul {
     flex-direction: column; /* stack navigation items vertically */
