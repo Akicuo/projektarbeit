@@ -17,6 +17,8 @@ body {
 
 .container {
   display: grid;
+  grid-column: auto auto auto ;
+  grid-row: 90px 30px auto 50px 70px ;
   grid-template-areas:
   "title title title"
   "nav nav nav"
