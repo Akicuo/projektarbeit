@@ -25,7 +25,13 @@ body {
   "catalogbutton catalogbutton catalogbutton"
   "footer footer footer";
   }
-
+  .title {
+  
+    padding: 0px;
+    margin: 0px;
+    align-self: center;
+  
+  }
 
   .navigation {
     grid-area: nav;
@@ -57,10 +63,6 @@ body {
     align-items: center;
     padding-left: 30px;
   }
-
-  
-
-  
 
   .image-gallery {
     display: flex;
@@ -125,16 +127,5 @@ body {
   background-color: #2fa4af;
 }
 
-.title {
-  
-  padding: 0px;
-  margin: 0px;
-  align-self: center;
 
-}
 
-.footer {
-  position: relative;
-  width: 100%;
-  bottom: 0px;
-}
