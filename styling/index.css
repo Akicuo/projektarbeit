@@ -1,7 +1,6 @@
 /* Global Styles */
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -40,10 +39,9 @@ body {
     background-color: #5DADE2;
     justify-content: center;
     align-items: center;
-    width: 100vh;
+    width: auto;
     position: relative;
     align-self: center;
-    max-width: 1900px; /* added */
     padding-bottom: 10px;
   }
   
@@ -128,6 +126,4 @@ body {
 .catalog-button:hover {
   background-color: #2fa4af;
 }
-
-
 

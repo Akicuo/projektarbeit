@@ -39,10 +39,9 @@
   background-color: #5DADE2;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: auto;
   position: relative;
   align-self: center;
-  max-width: 1600px; /* added */
   padding-bottom: 10px;
 }
 
