@@ -149,6 +149,10 @@
   text-align: center;
   clear: both;
   margin-bottom: 0px;
+  width: 100%; 
+  position: relative;
+  bottom: 0; 
+  left: 0; 
 }
 
 .footer p {
