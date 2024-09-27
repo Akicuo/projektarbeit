@@ -67,6 +67,9 @@
 
 
 @media (max-width: 1300px) {
+  .navigation, .header-container, .header, .footer, .navlink{
+    max-width: 100vh;
+  }
   .navigation ul {
     flex-direction: column; /* stack navigation items vertically */
   }
@@ -81,7 +84,9 @@
 }
 /* Media query for smaller screens (e.g., mobile devices) */
 @media (max-width: 450px) {
-  
+  .navigation, .header-container, header{
+    width: 100vh;
+  }
   .navigation ul {
     flex-direction: column; /* stack navigation items vertically */
   }
