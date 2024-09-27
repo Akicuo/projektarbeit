@@ -102,6 +102,7 @@ body {
 
 
 .catalog-button {
+  text-decoration: none;
   grid-area: catalogbutton;
   background-color: #5DADE2;
   color: #fff;
